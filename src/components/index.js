@@ -1,4 +1,4 @@
-import CategoryButton from "./ CategoryButton";
+import CategoryButton from "./CategoryButton";
 import EmptyTodo from "./EmptyTodo";
 import FormInputTodo from "./FormInputTodo";
 import ListTodos from "./ListTodos";
