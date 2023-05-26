@@ -6,8 +6,8 @@ import { AnimatePresence, LayoutGroup } from "framer-motion";
 
 import {
   CategoryButton,
-  EmptyTodo,
-  FormInputTodo,
+  EmptyToDo,
+  FormInputToDo,
   ListTodos,
   ModalDialog,
 } from "./components";
@@ -52,7 +52,7 @@ function App() {
       </h1>
 
       <section className="mt-4 w-full">
-        <FormInputTodo inputTodoRef={inputTodoRef} />
+        <FormInputToDo inputTodoRef={inputTodoRef} />
       </section>
 
       <section
@@ -75,7 +75,7 @@ function App() {
       </section>
 
       <section className="mt-16 flex w-full flex-col gap-5 py-2">
-        {todos.length < 1 && <EmptyTodo inputTodoRef={inputTodoRef} />}
+        {todos.length < 1 && <EmptyToDo inputTodoRef={inputTodoRef} />}
         <AnimatePresence mode="sync">
           {todos.length > 0 && (
             <ListTodos

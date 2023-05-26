@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import PropTypes from "prop-types";
 
-export default function EmptyTodo({ inputTodoRef }) {
+export default function EmptyToDo({ inputTodoRef }) {
   const variants = {
     hidden: {
       opacity: 0.5,
@@ -70,7 +70,7 @@ export default function EmptyTodo({ inputTodoRef }) {
   );
 }
 
-EmptyTodo.propTypes = {
+EmptyToDo.propTypes = {
   inputTodoRef: PropTypes.objectOf(PropTypes.instanceOf(HTMLInputElement))
     .isRequired,
 };
