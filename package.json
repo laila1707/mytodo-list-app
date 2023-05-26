@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "npm run format && vite",
-    "build": "npm run format && vite build",
+    "dev": "vite",
+    "build": "vite build",
     "build:css": "postcss src/index.css -o public/index.css",
     "watch:css": "postcss src/index.css -o public/index.css --watch",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",

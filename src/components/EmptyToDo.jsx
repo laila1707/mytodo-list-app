@@ -62,19 +62,10 @@ export default function EmptyTodo({ inputTodoRef }) {
       </svg>
 
       <div className="flex flex-col gap-2">
-        <h1>Get a clear view of the day ahead</h1>
-        <h1>All your tasks that are due today will show up here.</h1>
+        <h1>All the tasks you do will be displayed here</h1>
+        
       </div>
-      <motion.button
-        type="button"
-        className="mt-4 rounded-lg bg-indigo-600 py-2 px-4 text-sm hover:brightness-90 focus:outline-none focus:ring-1 focus:ring-indigo-500"
-        whileTap={{
-          scale: 0.95,
-        }}
-        onClick={() => inputTodoRef.current.focus()}
-      >
-        Add a task
-      </motion.button>
+      
     </motion.div>
   );
 }

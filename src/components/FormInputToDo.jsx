@@ -49,7 +49,7 @@ export default function FormInputTodo({ inputTodoRef }) {
       />
       <motion.button
         type="submit"
-        className="w-1/2 rounded-lg bg-slate-700/80 py-3 px-4 text-slate-100/90 shadow-2xl ring-1 ring-slate-900/10 backdrop-blur-sm hover:ring-slate-300/20 focus:outline-none focus:ring-1 focus:ring-slate-300/40 lg:w-1/3 lg:px-4"
+        className="w-1/2 rounded-lg bg-gray-700/80 py-3 px-4 text-gray-100/90 shadow-2xl ring-1 ring-gray-900/10 backdrop-blur-sm hover:ring-gray-300/20 focus:outline-none focus:ring-1 focus:ring-gray-300/40 lg:w-1/3 lg:px-4"
         whileTap={{
           scale: 0.925,
           transition: {
